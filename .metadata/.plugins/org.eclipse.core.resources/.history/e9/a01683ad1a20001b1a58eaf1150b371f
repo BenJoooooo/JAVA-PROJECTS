@@ -1,0 +1,23 @@
+package com.ThisIsAPackage;
+import java.util.Date;
+
+public class HelloWorld {
+
+	public static void main (String[] args) {
+		byte sampleNum = 100 ;
+		long viewsCount = 1_100_100_100_000_000_000l;
+		int numBers = 100_000_000;
+		double price = 10.99;
+		float priceLess = 10.99f;
+		char Letter = 'A';
+		
+		Date now = new Date ();
+		System.out.println(now);
+		
+		byte x = 1;
+		byte y = x;
+		x = 2;
+		
+		System.out.println(x);
+	}
+}

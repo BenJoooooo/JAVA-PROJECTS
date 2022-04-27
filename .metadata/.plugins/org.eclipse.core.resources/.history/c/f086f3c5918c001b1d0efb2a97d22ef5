@@ -1,0 +1,15 @@
+
+public class ReturnStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		printAMessage();
+		add(5,4);
+	}
+	public static void printAMessage() {
+		System.out.println("This is our first method!");
+	}
+	public static void add(int a, int b) {
+		System.out.println(a+b);
+	}
+}

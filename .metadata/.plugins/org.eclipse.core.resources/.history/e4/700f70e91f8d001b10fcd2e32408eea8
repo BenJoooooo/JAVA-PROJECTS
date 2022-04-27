@@ -1,0 +1,21 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Mouse1 m1 = new Mouse1();
+		m1.setColor("Black");
+		m1.leftClick();
+		m1.rightClick();
+		
+		Mouse2 m2 = new Mouse2();
+		m2.connect();
+		m2.leftClick();
+		m2.rightClick();
+		
+		mouse3 m3 = new mouse3();
+		m3.leftClick();
+		m3.rightClick();
+	}
+}

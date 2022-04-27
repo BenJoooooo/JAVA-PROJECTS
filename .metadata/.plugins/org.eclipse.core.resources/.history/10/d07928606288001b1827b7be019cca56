@@ -1,0 +1,5 @@
+package com.ben.codingPractice;
+
+public class apple extends sandwich {
+
+}

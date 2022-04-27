@@ -1,0 +1,8 @@
+package com.ben.codingPractice;
+
+public class Mouse2 {
+
+	public static void connect() {
+		System.out.println("Connected to bluetooth");
+	}
+}

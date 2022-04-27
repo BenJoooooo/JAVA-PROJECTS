@@ -1,0 +1,13 @@
+package com.ben.codingPractice;
+
+public class intToShort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte b = 127;
+		myObject mO = new myObject();
+		
+		int intValue = mO.intValue();
+		System.out.println(intValue);
+	}
+}

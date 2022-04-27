@@ -1,0 +1,37 @@
+package com.ben.codingPractice;
+
+interface DogInterface {
+	void bark();
+	void poop();
+}
+
+abstract class Dog {
+	public void bark() {
+		System.out.println("Bark");
+		System.out.println("Woof woof!");
+	}
+	public abstract void poop();
+	public abstract void dies();
+}
+class Chihuahua extends Dog {
+	public void poop () {
+		System.out.println("Dog pooped!");
+	}
+	public void dies () {
+		System.out.println("Dog howled");
+	}
+}
+public class abstractTutorial {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Chihuahua c = new Chihuahua();
+		c.bark();
+		c.poop();
+		c.dies();
+		
+		short sval = 30;
+		
+	}
+}
+

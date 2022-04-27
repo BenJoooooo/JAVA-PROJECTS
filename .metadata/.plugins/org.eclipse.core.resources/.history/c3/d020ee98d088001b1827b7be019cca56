@@ -1,0 +1,20 @@
+package com.ben.codingPractice;
+
+class Dog {
+	String breed;
+	
+	public void bark() {
+		System.out.println("Bark");
+		System.out.println("Woof woof!");
+	}
+}
+
+public class abstractTutorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Dog d = new Dog();
+		d.bark();
+	}
+
+}

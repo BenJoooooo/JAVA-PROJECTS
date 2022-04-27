@@ -1,0 +1,23 @@
+package com.ben.codingPractice;
+
+public class sampleOOP {
+
+	String flavor;
+	
+	public void setFlavor (String newFlavor) {
+		flavor = newFlavor;
+	}
+	
+	public void getFlavor() {
+		return flavor;
+	}
+	
+	public void openBag() {
+		System.out.println("Bag is opened");
+	}
+	
+	public static void main(String[]args) {
+		sampleOOP2 s02 = new sampleOOP2();
+		
+	}
+}

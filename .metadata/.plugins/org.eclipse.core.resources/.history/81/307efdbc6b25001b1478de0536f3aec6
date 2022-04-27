@@ -1,0 +1,11 @@
+
+public class ex {
+
+	public static void main(String[] args) {
+		int streamDurationMin=90;
+		for (int i = 0; i < streamDurationMin; i++) {
+			System.out.print("We are live");
+		}
+	}
+
+}

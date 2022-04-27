@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class Activity3 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Input String 1: ");
+		String word = in.next();
+		System.out.print("Input String 2: ");
+		String word1 = in.next();
+		System.out.print("OPTION:\n1. String copy"
+				+ "\n2. String concatenation\n3. String Comparison"
+				+ "\n4. Reverse the first string input"
+				+ "\n5. Second input string Conversion \nUppercase to Lowercase & Lowecase to Uppercase)"
+				+ "\n6. Exit \nInput: ");
+		
+		int options = in.nextInt();
+		
+		switch(options) {
+		//String copy
+		case 1: System.out.print("String Copy: ");
+		}
+	}
+}

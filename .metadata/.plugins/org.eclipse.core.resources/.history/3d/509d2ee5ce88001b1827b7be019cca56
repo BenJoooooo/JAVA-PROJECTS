@@ -1,0 +1,10 @@
+package com.ben.codingPractice;
+
+public class sampleOOP2 {
+
+	public void sayHi() {
+		System.out.println("Say hi!");
+	}
+
+	
+}

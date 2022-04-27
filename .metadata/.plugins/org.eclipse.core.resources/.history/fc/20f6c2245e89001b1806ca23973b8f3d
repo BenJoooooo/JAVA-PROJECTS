@@ -1,0 +1,33 @@
+package com.ben.codingPractice;
+
+class Bird {
+	public void sing() {
+		System.out.println("Tweet tweet tweet");
+	}
+}
+
+class Robin extends Bird {
+	public void sing() {
+		System.out.println("Twiddledeedede");
+	}
+}
+
+class Pelican extends Bird {
+	public void sing() {
+		System.out.println("Kwah Kwah Kwah");
+	}
+}
+public class poly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Bird b = new Bird();
+		b.sing();
+		Robin c = new Robin();
+		c.sing();
+		Pelican d = new Pelican();
+		d.sing();
+	}
+
+}
+

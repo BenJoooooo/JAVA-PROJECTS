@@ -1,0 +1,14 @@
+package com.ben.codingPractice;
+
+public class sampleOOP {
+
+	String name;
+	
+	public void sayName() {
+		System.out.println("My name is Ben");
+	}
+	
+	public void sayName(String name) {
+		System.out.println("My name is " + name);
+	}
+}

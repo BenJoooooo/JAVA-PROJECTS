@@ -1,0 +1,13 @@
+import java.util.Scanner;
+public class sampleOnly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ew = new Scanner (System.in);
+		String [] s = {"Hello","World"};
+		saySomething(s);
+	}
+	public static void saySomething(String[] a) {
+		System.out.println(a[0]);
+	}
+}

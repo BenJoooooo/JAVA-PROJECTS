@@ -1,0 +1,13 @@
+
+public class sampleOnly {
+
+	static String name = "Ben";
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		sayHi();
+	}
+	static void sayHi() {
+		System.out.println("Hello Fucking World!" + name);
+	}
+}

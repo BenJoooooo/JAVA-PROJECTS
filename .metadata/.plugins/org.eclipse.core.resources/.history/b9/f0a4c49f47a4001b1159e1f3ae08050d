@@ -1,0 +1,10 @@
+
+public class MainPersonClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PersonClass c1 = new PersonClass();
+		
+		System.out.println(c1.getAge());
+	}
+}

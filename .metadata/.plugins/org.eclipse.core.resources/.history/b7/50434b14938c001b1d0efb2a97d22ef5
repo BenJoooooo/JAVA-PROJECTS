@@ -1,0 +1,12 @@
+
+public class ReturnStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String shouting = caps("Why are you reading my diary mom!?");
+		System.out.println(shouting);
+	}
+	public static String caps(String s) {
+		return s.toUpperCase();
+	}
+}

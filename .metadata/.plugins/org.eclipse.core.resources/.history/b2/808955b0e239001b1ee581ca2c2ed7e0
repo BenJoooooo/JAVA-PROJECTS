@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+public class Main {
+
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null,"Welcome to summoners rift", "Ewan ko na lang",JOptionPane.PLAIN_MESSAGE);
+		String Prelim, Midterm, Semi_Final,Final;
+		int PrelimGrade,MidtermGrade,Semi_FinalGrade,FinalGrade;
+		double AverageGrade;
+		
+		Prelim = JOptionPane.showInputDialog(null, "Enter your prelim grade: ", "Grading System", JOptionPane.PLAIN_MESSAGE);
+		Midterm = JOptionPane.showInputDialog(null, "Enter your midterm grade: ", "Grading System", JOptionPane.PLAIN_MESSAGE);
+		Semi_Final = JOptionPane.showInputDialog(null, "Enter your semi-final grade: ", "Grading Ssytem", JOptionPane.PLAIN_MESSAGE);
+		Final = JOptionPane.showInputDialog(null,"Enter your final grade: ", "Grading System", JOptionPane.PLAIN_MESSAGE);
+		
+	}
+}

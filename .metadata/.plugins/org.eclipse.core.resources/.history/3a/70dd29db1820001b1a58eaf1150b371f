@@ -1,0 +1,9 @@
+package com.ThisIsAPackage;
+
+public class HelloWorld {
+
+	public static void main (String[] args) {
+		byte sampleNum = 100 ;
+		long viewsCount = 100_100_100_000_000_000l;
+	}
+}

@@ -1,0 +1,8 @@
+package com.ThisIsAPackage;
+
+public class HelloWorld {
+
+	public static void main (String[] args) {
+		byte SampleNum = 10;
+	}
+}

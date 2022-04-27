@@ -1,0 +1,9 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+public class Main {
+
+	public static void main(String[] args) {
+		JOptionPane.showMessageDialog(null,"Welcome to summoners rift", "Ewan ko na lang","Hakdog", JOptionPane.PLAIN_MESSAGE);
+	}
+}

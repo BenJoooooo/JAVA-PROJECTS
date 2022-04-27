@@ -1,0 +1,19 @@
+package com.ben.codingPractice;
+
+public class staticky {
+
+	String name = "Ben";
+	static int num = 25;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		staticky stat = new staticky();
+		
+		String myName = "My name is ";
+		System.out.println(myName+stat.name);
+		
+		System.out.println("My Birthday is on " + num);
+	}
+
+}

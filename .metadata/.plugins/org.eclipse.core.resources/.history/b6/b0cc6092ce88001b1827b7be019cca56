@@ -1,0 +1,21 @@
+package com.ben.codingPractice;
+
+public class sampleOOP extends sampleOOP2 {
+
+	String name;
+	
+	public void sayName() {
+		System.out.println("My name!");
+	}
+	
+	public void sayName(String name) {
+		System.out.println("My name is " + name);
+	}
+	public void sayHi() {
+		
+	}
+	public static void main(String[]args) {
+		sampleOOP2 s02 = new sampleOOP2();
+		s02.sayHi();
+	}
+}

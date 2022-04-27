@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class sampleOnly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner ew = new Scanner (System.in);
+		System.out.println("Enter number 1: ");
+		int num1 = ew.nextInt();
+		System.out.println("Enter number 2: ");
+		int num2 = ew.nextInt();
+		int num3 = addition(num1,num2);
+		
+		System.out.println("Answer: "+ num3);
+	}
+	public static int addition (int x, int y) {
+		return x+y;
+	}
+}

@@ -1,0 +1,7 @@
+package com.ben.codingPractice;
+
+public class Mouse2 extends Mouse1{
+	public static void lighting() {
+		System.out.println("Mouse is an rgb");
+	}
+}

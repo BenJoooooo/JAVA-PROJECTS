@@ -1,0 +1,15 @@
+
+public class mouse3 {
+	
+	boolean ambidextrous = true;
+	
+	public static void leftClick() {
+		System.out.println("Click left!");
+	}
+	
+	public static void rightClick() {
+		System.out.println("Click Right!");
+	}
+	
+	
+}

@@ -1,0 +1,10 @@
+package com.ben.codingPractice;
+
+public class myObject {
+
+	public int intValue() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

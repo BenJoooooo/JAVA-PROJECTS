@@ -1,0 +1,8 @@
+package com.ben.codingPractice;
+
+public class sampleOOP2 {
+	public static void main(String[] args) {
+		sampleOOP s01 = new sampleOOP();
+		s01.setFlavor("Beef");
+	}
+}

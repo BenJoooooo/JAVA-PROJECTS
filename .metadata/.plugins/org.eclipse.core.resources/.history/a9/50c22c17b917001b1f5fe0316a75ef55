@@ -1,0 +1,38 @@
+import java.util.*;
+public class Activity1 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		
+		int i = 0;
+		do {
+		System.out.println("INPUT STRING: ");
+		String str = in.nextLine();
+		System.out.print("OPTION:\n1. count number of characters"
+				+ "\n2. count number of words\n3. search a substring"
+				+ "\n4. replace character\n5. deleting the word"
+				+ "\n6. insert a word\n7. exit\nInput: ");
+		
+			int options = in.nextInt();
+			
+			switch (options) {
+			case 1: System.out.println("Number of Characters: \n");
+			break;
+			case 2: System.out.println("Number of words: \n");
+			break;
+			case 3: System.out.println("Input key to be search: \n");
+			break;
+			case 4: System.out.println("Input a character to be replace: \n");
+			break;
+			case 5: System.out.println("Word to be delete: \n");
+			break;
+			case 6: System.out.println("Word to be insert: \n");
+			break;
+			case 7: System.exit(i);
+			break;
+			default: System.out.println("Input error! \n");
+			}
+		}
+		while (i<8);
+	}
+}

@@ -1,0 +1,14 @@
+
+public class sampleOnly {
+
+	String name = "Ben";
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		sayHi();
+	}
+	static void sayHi() {
+		sampleOnly op = new sampleOnly();
+		System.out.println("Hello Fucking World!" + op.name);
+	}
+}

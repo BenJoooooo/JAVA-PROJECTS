@@ -1,0 +1,17 @@
+package com.ben.codingPractice;
+
+class Bird {
+	public void sing() {
+		System.out.println("Tweet tweet tweet");
+	}
+}
+
+public class poly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Bird b = new Bird();
+		b.sing();
+	}
+
+}

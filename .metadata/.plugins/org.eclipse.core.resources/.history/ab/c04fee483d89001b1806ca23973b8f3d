@@ -1,0 +1,16 @@
+package com.ben.codingPractice;
+
+public class intToShort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		byte a = 1;
+		short b;
+		char c;
+		int d;
+		float f;
+		double g = 1.5;
+		
+		int ex = (int) g;
+	}
+}

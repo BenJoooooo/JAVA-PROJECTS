@@ -1,0 +1,14 @@
+package com.ben.codingPractice;
+
+public class food {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		tuna tunaObject = new tuna();
+		apple appleObject = new apple();
+		
+		tunaObject.eat();
+		appleObject.eat();
+		
+	}
+}

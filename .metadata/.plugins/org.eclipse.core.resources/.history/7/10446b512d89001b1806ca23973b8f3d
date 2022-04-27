@@ -1,0 +1,21 @@
+package com.ben.codingPractice;
+
+public class intToShort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		short sob = 200;
+		Short o1 = new Short(sob);
+		
+		System.out.println(sob);
+		
+		int intValue = o1.intValue();
+		
+		System.out.println(intValue);
+		
+		intValue = 300;
+		
+		System.out.println(intValue);
+	}
+
+}

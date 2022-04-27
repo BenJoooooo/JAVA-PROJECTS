@@ -1,0 +1,10 @@
+package com.ben.codingPractice;
+
+public class Mouse3 {
+	public static void backButton() {
+		System.out.println("Back Button!");
+	}
+	public static void forwardButton() {
+		System.out.println("Forward Button!");
+	}
+}

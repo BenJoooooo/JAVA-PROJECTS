@@ -1,0 +1,6 @@
+package com.ben.codingPractice;
+
+public interface sampleOOP {
+	final String flavor = "Beef";
+	void openBag();
+}

@@ -1,0 +1,48 @@
+package com.ThisIsAPackage;
+import java.util.Date;
+import java.awt.*;
+import java.util.Scanner;
+
+public class HelloWorld {
+
+	public static void main (String[] args) {
+		Scanner in = new Scanner (System.in);
+		byte sampleNum = 100 ;
+		long viewsCount = 1_100_100_100_000_000_000l;
+		int numBers = 100_000_000;
+		double price = 10.99;
+		float priceLess = 10.99f;
+		char Letter = 'A';
+		
+		Date now = new Date();
+		System.out.println(now);
+		
+		byte x = 1;
+		byte y = x;
+		
+		System.out.println(y);
+		
+		Point point1 = new Point(1,1);
+		Point point2 = point1;
+		point1.x=2;
+		System.out.println(point2);
+		
+		String message = "Hello world";
+		System.out.println(message.length());
+		System.out.println(message.indexOf("d"));
+		
+		int a,b,c;
+		double d, e;
+		System.out.print("Enter the number of males: ");
+		a = in.nextInt();
+		System.out.print("Enter the number of females: ");
+		b = in.nextInt();
+		c = a+b;
+		System.out.print("Number of students: " + c);
+		
+		d = a * 100 / c;
+		e = b * 100 / c;
+		System.out.print("Male: " + d + "%");
+		System.out.print("Female: " + e + "%");
+	}
+}

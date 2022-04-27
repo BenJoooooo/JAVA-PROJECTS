@@ -1,0 +1,7 @@
+package com.ben.codingPractice;
+
+public class sandwich {
+	public void eat() {
+		System.out.println("I am eat methods");
+	}
+}

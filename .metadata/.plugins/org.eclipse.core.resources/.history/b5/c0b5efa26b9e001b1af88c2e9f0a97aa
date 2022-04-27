@@ -1,0 +1,14 @@
+
+public class LessonOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LessonOneClass lessonOne = new LessonOneClass("123456, Black");
+		
+		System.out.println(lessonOne.plateNumber);
+		lessonOne.accelerate();
+		lessonOne.turn();
+		lessonOne.brake();
+	}
+
+}

@@ -1,0 +1,26 @@
+
+public class LessonOneClass {
+	
+	String plateNumber;
+	String color;
+	String manufacturer;
+	int currentSpeed;
+	
+	LessonOneClass() {
+		plateNumber = "XXX000";
+		color = "White";
+		manufacturer = "N/A";
+		currentSpeed = 0;
+	}
+	
+	public void accelerate() {
+		System.out.println("Accelerated!");
+	}
+	public void turn() {
+		System.out.println("Turned!");
+	}
+	public void brake() {
+		System.out.println("Brake!");
+	}
+	
+}

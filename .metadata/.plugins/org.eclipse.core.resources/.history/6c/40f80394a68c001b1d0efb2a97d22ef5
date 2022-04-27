@@ -1,0 +1,14 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
+
+public class GamePlay extends JPanel{
+	
+	private ImageIcon titleImage;
+	
+	public GamePlay() {
+		
+	}
+
+}

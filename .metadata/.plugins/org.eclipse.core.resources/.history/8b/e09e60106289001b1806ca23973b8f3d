@@ -1,0 +1,11 @@
+
+public class sampleOnly {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		saySomething("Hello Fucking World Again!");
+	}
+	public static void saySomething(String s) {
+		System.out.println(s);
+	}
+}

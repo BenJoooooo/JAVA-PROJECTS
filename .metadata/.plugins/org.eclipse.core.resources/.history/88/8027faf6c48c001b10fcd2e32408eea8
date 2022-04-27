@@ -1,0 +1,24 @@
+package com.ben.codingPractice;
+
+abstract class Dog {
+	
+	String breed = "Many";
+	
+	public void bark() {
+		System.out.println("Aw!");
+	}
+}
+class Chihuahua extends Dog {
+	
+}
+
+public class AbstractTutorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Chihuahua c = new Chihuahua();
+		c.bark();
+		System.out.println(c.breed);
+	}
+	
+}

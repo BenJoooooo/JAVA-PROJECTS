@@ -1,0 +1,14 @@
+package com.ben.codingPractice;
+
+public class sampleOOP2 implements sampleOOP {
+	public static void main(String[] args) {
+		sampleOOP2 s02 = new sampleOOP2();
+		s02.openBag();
+	}
+
+	@Override
+	public void openBag() {
+		System.out.println("Bag opened");
+	}
+	
+}

@@ -1,0 +1,13 @@
+
+public class LessonOne {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		LessonOneClass lessonOne = new LessonOneClass("Honda");
+		
+		lessonOne.accelerate();
+		lessonOne.turn();
+		lessonOne.brake();
+	}
+
+}

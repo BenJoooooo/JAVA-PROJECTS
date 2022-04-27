@@ -1,0 +1,23 @@
+
+public class ReturnStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		printAMessage();
+		int sum = add(9,3);
+		String s = helloWorld("Hello Fuck!");
+		System.out.println(sum);
+		System.out.println(s);
+	}
+	public static void printAMessage() {
+		System.out.println("This is our first method!");
+	}
+	public static int add(int a, int b) {
+		System.out.println(a+b);
+		return a+b;
+	}
+	public static String helloWorld(String a) {
+		System.out.println(a);
+		return a;
+	}
+}

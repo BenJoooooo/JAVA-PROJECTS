@@ -1,0 +1,14 @@
+package com.ben.codingPractice;
+
+public class Mouse1 extends Mouse{
+	
+	String texture = "Matte";
+	
+	public static void connect() {
+		System.out.println("Connected to bluetooth!");
+	}
+	
+	public static void setColor(String colors) {
+		System.out.println(colors);
+	}
+}

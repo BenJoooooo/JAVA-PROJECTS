@@ -1,0 +1,13 @@
+package com.ben.codingPractice;
+
+public class staticky {
+
+	String name = "Ben";
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String myName = "My name is ";
+		System.out.println(myName);
+	}
+
+}

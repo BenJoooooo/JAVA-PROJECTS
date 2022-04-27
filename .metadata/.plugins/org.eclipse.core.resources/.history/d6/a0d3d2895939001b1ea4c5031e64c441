@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner (System.in);
+		
+		int options = 2;
+		do {
+		
+		switch (options) {
+		case 1: System.out.print("Hello World");
+		break;
+		case 2: System.out.print("Hello Manila");
+		break;
+		case 3: System.out.print("Hello Cubao");
+		break;
+		}
+		} while(options  != 2);
+	}
+}

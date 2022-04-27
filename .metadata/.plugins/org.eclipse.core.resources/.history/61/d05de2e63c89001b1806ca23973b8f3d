@@ -1,0 +1,10 @@
+package com.ben.codingPractice;
+
+public class intToShort {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = (int)5;
+		System.out.println(a);
+	}
+}

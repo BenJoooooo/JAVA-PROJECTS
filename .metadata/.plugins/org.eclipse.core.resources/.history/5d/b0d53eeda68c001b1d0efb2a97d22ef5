@@ -1,0 +1,27 @@
+import java.awt.Color;
+import java.awt.Graphics;
+import javax.swing.ImageIcon;
+import javax.swing.JPanel;
+
+public class GamePlay extends JPanel{
+	
+	private ImageIcon titleImage;
+	
+	public GamePlay() {
+		
+	}
+	
+	public void paint (Graphics g) {
+		// draw title image border
+		g.setColor(Color.white);
+		g.drawRect(24, 10, 851, 55);
+		
+		// draw the title image
+		titleImage = new ImageIcon("snaketitle.jpg");
+		titleImage.paintIcon(this, g, 25, 11);
+		
+		// draw border for game play
+		g.setColor(Color.white);
+		g.drawRect(24, 100, 851, 577);
+	}
+}

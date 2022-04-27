@@ -1,0 +1,12 @@
+
+public class Shirt {
+	
+	public static String color;
+	public static int size;
+	
+	Shirt(String newColor, int newSize) {
+		color = newColor;
+		size = newSize;
+	}
+	
+}

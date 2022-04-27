@@ -1,0 +1,14 @@
+package com.ben.codingPractice;
+
+public class staticky {
+	
+	String name = "Ben";
+	
+	public static void main (String[] args) {
+		System.out.println();
+	}
+	
+	public void  {
+		
+	}
+}

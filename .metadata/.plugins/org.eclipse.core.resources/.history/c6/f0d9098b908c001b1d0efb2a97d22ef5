@@ -1,0 +1,11 @@
+
+public class ReturnStatements {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+	public static void printAMessage() {
+		System.out.println("This is our first method!");
+	}
+}

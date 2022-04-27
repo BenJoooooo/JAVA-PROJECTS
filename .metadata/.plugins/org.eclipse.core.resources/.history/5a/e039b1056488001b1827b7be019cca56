@@ -1,0 +1,12 @@
+package com.ben.codingPractice;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		student s = new student();
+		
+		s.setName("Suzie");
+		n.setAge(12);
+	}
+}

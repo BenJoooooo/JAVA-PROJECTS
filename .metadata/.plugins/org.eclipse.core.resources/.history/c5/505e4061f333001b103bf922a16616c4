@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Activity3 {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);
+		System.out.print("Input Integer Value: ");
+		int num = in.nextInt();
+		System.out.print("OPTION:\n1. String copy"
+				+ "\n2. String concatenation\n3. Prime number checking"
+				+ "\n4. Display all the number from 2 to n(n is a users input)"
+				+ ". Apply the algorithm of Sieve of Eratosthenese\n5. Palindrome Checking"
+				+ "\n6. Odd or even number\n7. exit\nInput: ");
+	}
+
+}

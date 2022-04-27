@@ -1,0 +1,14 @@
+package com.ben.codingPractice;
+
+public class student {
+	
+	private String name;
+	int age;
+	
+	public void setName(String newName) {
+		name = newName;
+	}
+	public String getName() {
+		return name;
+	}
+}

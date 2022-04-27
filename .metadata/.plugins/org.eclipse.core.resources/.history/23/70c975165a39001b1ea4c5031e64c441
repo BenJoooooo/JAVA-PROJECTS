@@ -1,0 +1,29 @@
+import java.util.Random;
+import java.util.Scanner;
+public class sample {
+	
+	private static Random num = new Random();
+	private static int answer = num.nextInt(10);
+	private static int guess;
+	private String playAgain;
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner (System.in);
+		System.out.print("Print a number");
+		guess = in.nextInt();
+		do {
+			if (guess < 1 || guess > 10) {
+				System.out.print("Invalid entry, try again");
+				guess = in.nextInt();
+			} else if (guess > answer) {
+				System.out.print("Too high, try again");
+				guess = in.nextInt();
+			} else if (guess < answer) {
+				System.out.print("Too low, try again");
+				guess = in.nextInt();
+			}
+		} while (guess != answer);
+		System.out.print("you won!");
+	}
+}

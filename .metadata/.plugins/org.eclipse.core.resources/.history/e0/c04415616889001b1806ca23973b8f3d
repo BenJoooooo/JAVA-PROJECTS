@@ -1,0 +1,14 @@
+package com.ben.codingPractice;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Mouse1 m1 = new Mouse1();
+		m1.scrollUp();
+		m1.scrollDown();
+		m1.leftClick();
+		m1.rightClick();
+	}
+
+}

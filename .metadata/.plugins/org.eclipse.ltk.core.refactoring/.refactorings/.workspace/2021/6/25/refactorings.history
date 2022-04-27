@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;FIFNALS OOP-MP2&apos; to &apos;FINALS OOP-MP2&apos;" description="Rename resource &apos;FIFNALS OOP-MP2&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/FIFNALS OOP-MP2" name="FINALS OOP-MP2" stamp="1623939238994" updateReferences="true"/>
+</session>

@@ -1,0 +1,17 @@
+
+public class Mouse1 {
+	String texture = "Matte";
+	
+	public static void leftClick() {
+		System.out.println("Click left!");
+	}
+	
+	public static void rightClick() {
+		System.out.println("Click Right!");
+	}
+	
+	public static void setColor (String color) {
+		System.out.println(color);
+	}
+	
+}

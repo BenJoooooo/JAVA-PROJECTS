@@ -1,0 +1,11 @@
+
+interface mouses {
+	void rightClick();
+	void leftClick();
+	void scrollUp();
+	void scrollDown();
+}
+
+public class mouse {
+
+}

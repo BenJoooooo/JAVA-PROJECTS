@@ -1,0 +1,14 @@
+package com.ben.codingPractice;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		student s = new student();
+		s.name = "Tommy";
+		s.age = 17;
+		System.out.println(s.name);
+		System.out.println(s.age);
+	}
+
+}

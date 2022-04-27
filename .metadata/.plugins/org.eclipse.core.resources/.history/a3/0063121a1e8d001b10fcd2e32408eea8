@@ -1,0 +1,95 @@
+package com.ben.codingPractice;
+
+interface Dog {
+	void bark();
+	void poop();
+	void howl();
+	void run();
+	void roll();
+	void walk();
+}
+
+class Chihuahua implements Dog {
+	public void poop() {
+		System.out.println("Dog poop!");
+	}
+
+	@Override
+	public void bark() {
+		// TODO Auto-generated method stub
+		System.out.println("Barked!");
+	}
+
+	@Override
+	public void howl() {
+		// TODO Auto-generated method stub
+		System.out.println("Howls");
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		System.out.println("Runs!");
+	}
+
+	@Override
+	public void roll() {
+		// TODO Auto-generated method stub
+		System.out.println("Rolls!");
+	}
+
+	@Override
+	public void walk() {
+		// TODO Auto-generated method stub
+		System.out.println("Walks!");
+	}
+}
+
+class Dobberman implements Dog {
+
+	@Override
+	public void bark() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void poop() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void howl() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void run() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void roll() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void walk() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+}
+
+public class AbstractTutorial {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Chihuahua c = new Chihuahua();
+		c.poop();
+	}
+}

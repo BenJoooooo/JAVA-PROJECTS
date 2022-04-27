@@ -1,0 +1,13 @@
+
+public class MainPersonClass {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		PersonClass c1 = new PersonClass();
+		c1.setAge(20);
+		c1.setName("Ben Joshua");
+		
+		System.out.println(c1.getName() + " " + c1.getAge());
+	}
+
+}
